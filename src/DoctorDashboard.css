@@ -1,0 +1,130 @@
+/* Container Styling */
+.doctor-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styling */
+  h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Search Box */
+  .search-box {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .search-box:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Patient List */
+  .patient-list {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Patient Card */
+  .patient-card {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .patient-card:hover {
+    background: #e9ecef;
+  }
+  
+  .patient-card.selected {
+    border-color: #007bff;
+    background: #d1ecf1;
+  }
+  
+  /* Prescription Box */
+  .prescription-box {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prescription-box h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* Prescription Input */
+  .prescription-input {
+    width: 80%;
+    padding: 12px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .prescription-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Update Button */
+  .update-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .update-btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Alert Messages */
+  .alert {
+    margin-top: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .alert.success {
+    color: green;
+  }
+  
+  .alert.error {
+    color: red;
+  }
+  
